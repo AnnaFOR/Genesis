@@ -1,0 +1,17 @@
+.footer-container {
+    max-width: 1110px;
+    min-height: 23px;
+    padding-top: 6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-left: 30px;
+}

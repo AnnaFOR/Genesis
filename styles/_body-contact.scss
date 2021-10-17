@@ -1,0 +1,71 @@
+.main-container {
+    max-width: 1110px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.head {
+    max-width: 475px;
+    min-height: 174px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.txt {
+    max-width: 445px;
+    min-height: 56px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* FORM */
+
+.form {
+    max-width: 475px;
+    min-height: 291px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 6rem;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family:  'Mulish', sans-serif;      /* form doesnt implement these font values, except for color. it inherits the font.. check why */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #979797;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 30px 90px 30px 90px;     
+}
+
+button {
+    width: 125px;
+    height: 50px;
+    background-color: #4A4FF2;
+
+    font-family:  'Mulish', sans-serif;   
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+/* IMAGE */
+
+.img {
+    max-width: 1110px;
+    min-height: 570px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,59 @@
+/* HEADING */
+
+.header-container {
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.title {
+    max-width: 495px;
+    min-height: 130px;
+    padding: 30px 0;
+}
+
+.text {
+    max-width: 635px;
+    min-height: 222px;
+}
+
+table {
+    max-width: 335px;          
+    min-height: 343px;
+}
+
+tr {
+    border-bottom: 1px solid lightgray;  
+}
+
+td {
+    padding: 5px 20px 20px 5px;        /* how to center text in cell? */
+}
+
+/* MAIN */
+
+.main-img {
+    max-width: 1110px;
+    min-height: 660px;
+    padding-top: 3rem;         /* testing result with rem */
+    padding-bottom: 2rem;
+}
+
+.main-txt {
+    max-width: 1109px;
+    min-height: 93px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.imgs {
+    max-width: 1110px;
+    min-height: 400px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    
+    display: flex;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,33 @@
+.img-container {
+    max-width: 1110px;
+    min-height: 1960px;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    grid-template-rows: repeat(32, auto);
+    grid-gap: 3px;
+}
+
+#headless { grid-area: 1/1/8/4; }
+
+#cactus { grid-area: 8/1/16/4; }
+
+#sun { grid-area: 16/1/24/4; } 
+
+#sunset { grid-area: 24/1/33/4}
+
+#brain { grid-area: 1/4/7/7; }
+
+#liberty { grid-area: 7/4/14/7; }
+
+#balls { grid-area: 14/4/23/7;}
+
+#last { grid-area: 23/4/33/7; }
+
+#flower { grid-area: 1/7/11/10; }
+
+#covered { grid-area: 11/7/18/10; }
+
+#piano { grid-area: 18/7/27/10; }
+
+#forest { grid-area: 27/7/33/10; }
+

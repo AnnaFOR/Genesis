@@ -1,0 +1,225 @@
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  color: #111111;
+}
+
+h2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #111111;
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 80%;
+  color: #111111;
+}
+
+a {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.35px;
+  color: #111111;
+}
+
+#shooting {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #4A4FF2;
+}
+
+.side-txt {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  font-style: italic;
+  color: #111111;
+}
+
+#span-blue {
+  color: #4A4FF2;
+}
+
+.awards-title {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #111111;
+}
+
+.awards-mini-title {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+}
+
+.awards-plain {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.line-height {
+  line-height: 26px;
+}
+
+table {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+}
+
+.opac {
+  opacity: 50%;
+}
+
+.top-container {
+  max-width: 1110px;
+  min-height: 23px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* HEADING */
+.header-container {
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.title {
+  max-width: 495px;
+  min-height: 130px;
+  padding: 30px 0;
+}
+
+.text {
+  max-width: 635px;
+  min-height: 222px;
+}
+
+table {
+  max-width: 335px;
+  min-height: 343px;
+}
+
+tr {
+  border-bottom: 1px solid lightgray;
+}
+
+td {
+  padding: 5px 20px 20px 5px;
+  /* how to center text in cell? */
+}
+
+/* MAIN */
+.main-img {
+  max-width: 1110px;
+  min-height: 660px;
+  padding-top: 3rem;
+  /* testing result with rem */
+  padding-bottom: 2rem;
+}
+
+.main-txt {
+  max-width: 1109px;
+  min-height: 93px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.imgs {
+  max-width: 1110px;
+  min-height: 400px;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-container {
+  max-width: 1110px;
+  min-height: 23px;
+  padding-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  padding-left: 30px;
+}
+
+body {
+  margin: 3rem 3rem;
+  padding: 3rem 3rem;
+}

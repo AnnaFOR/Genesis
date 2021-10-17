@@ -1,0 +1,12 @@
+@use 'fonts';
+
+@import 'img portfolio';
+@import 'awards grid';
+@import 'header';
+@import 'body-index';
+@import 'footer';
+
+body {
+    margin: 3rem 3rem;
+    padding: 3rem 3rem;
+}
